@@ -35,6 +35,10 @@ public abstract class ThreeDimensional extends GeometricShape {
         this.z = z;
     }
 
+    public abstract double calcVolume();
+
+    public abstract double calcSurface();
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

@@ -8,10 +8,6 @@ public class Circle extends TwoDimensional {
     private double radius;
 
 
-    public Circle(double radius) {
-        this.radius = radius;
-    }
-
     public Circle(int x, int y, double radius) {
         this.x = x;
         this.y = y;
@@ -28,12 +24,12 @@ public class Circle extends TwoDimensional {
 
     @Override
     public double calcArea() {
-        return 0;
+        return Math.PI*radius;
     }
 
     @Override
     public double calcPerimeter() {
-        return 0;
+        return 2*Math.PI*radius;
     }
 
     @Override
@@ -61,8 +57,8 @@ public class Circle extends TwoDimensional {
     public String toString() {
         return "Circle{" +
                 "radius=" + radius +
-                "area=" + calcArea() +
-                "perimeter=" + calcPerimeter() +
+                ", area=" + calcArea() +
+                ", perimeter=" + calcPerimeter() +
                 '}';
     }
 }
