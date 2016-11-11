@@ -9,10 +9,6 @@ public class Diamond extends TwoDimensional{
     private double diagonalF;
     private double diagonalE;
 
-
-    public Diamond() {
-    }
-
     public Diamond(int x, int y,double sideA, double diagonalE, double diagonalF) {
 
         this.x=x;

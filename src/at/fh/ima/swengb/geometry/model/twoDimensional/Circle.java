@@ -7,7 +7,6 @@ public class Circle extends TwoDimensional {
 
     private double radius;
 
-
     public Circle(int x, int y, double radius) {
         this.x = x;
         this.y = y;
